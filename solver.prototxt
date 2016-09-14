@@ -1,0 +1,23 @@
+net: "./train_val.prototxt"
+test_iter: 111
+test_interval: 400
+base_lr: 0.0001
+lr_policy: "fixed"
+gamma: 0.1
+stepsize: 40000
+display: 50
+max_iter: 140000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "./bingchen"
+solver_mode: GPU
+
+#class: 20  (delete 14_symbolism)
+#val: 1241
+#train: 65216
+#test: 2487
+
+
+
+
